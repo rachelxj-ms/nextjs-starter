@@ -12,7 +12,7 @@ const Home = () => (
         return <SmallCard key={project.id} Icon={Icon} title={project.name} slug={project.slug} />;
       })}
     </div>
-    <a href="/api/message?name=StaticWebApp"></a>
+    <a href="/api/message?name=StaticWebApp">Hello, Static Web App</a>
   </div>
 );
 
